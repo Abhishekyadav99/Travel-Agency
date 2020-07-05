@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'Fondamento', cursive;
+}
+.container{
+    max-width: 80%;
+   /* background-color: rgb(129, 62, 190);*/
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    font-size: 17px;
+}
+
+input ,textarea{
+    border: 2px solid black;
+    width: 80%;
+    margin: 11px auto;
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 35px;
+    outline: none;
+    
+}
+
+p{
+    font-size: 17px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.submit-msg{
+    color: green;
+    font-size: 17px;
+}
